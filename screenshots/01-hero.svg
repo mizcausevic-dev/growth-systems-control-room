@@ -1,0 +1,38 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" rx="32" fill="#091113"/>
+  <rect x="40" y="40" width="1320" height="820" rx="28" fill="#10191C" stroke="#24363B"/>
+  <text x="92" y="112" fill="#8EF2C0" font-family="Arial, sans-serif" font-size="20" letter-spacing="4">GROWTH SYSTEMS CONTROL ROOM</text>
+  <text x="92" y="176" fill="#F5F7FB" font-family="Georgia, serif" font-size="50" font-weight="700">One flagship surface for revenue, growth, AI,</text>
+  <text x="92" y="234" fill="#F5F7FB" font-family="Georgia, serif" font-size="50" font-weight="700">security, and operating pressure.</text>
+  <text x="92" y="290" fill="#B8C7D7" font-family="Arial, sans-serif" font-size="24">A control room that makes the wider portfolio feel coordinated instead of fragmented.</text>
+
+  <g>
+    <rect x="92" y="352" width="280" height="176" rx="22" fill="#172328" stroke="#30444A"/>
+    <text x="122" y="394" fill="#B8C7D7" font-family="Arial, sans-serif" font-size="18">Revenue surface</text>
+    <text x="122" y="468" fill="#F4F9DD" font-family="Georgia, serif" font-size="46" font-weight="700">$18.2M</text>
+    <text x="122" y="510" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="24" font-weight="700">Pipeline exposure</text>
+  </g>
+  <g>
+    <rect x="400" y="352" width="280" height="176" rx="22" fill="#172328" stroke="#30444A"/>
+    <text x="430" y="394" fill="#B8C7D7" font-family="Arial, sans-serif" font-size="18">Experiment pressure</text>
+    <text x="430" y="468" fill="#F4F9DD" font-family="Georgia, serif" font-size="46" font-weight="700">14</text>
+    <text x="430" y="510" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="24" font-weight="700">Live tests and rollouts</text>
+  </g>
+  <g>
+    <rect x="708" y="352" width="280" height="176" rx="22" fill="#172328" stroke="#30444A"/>
+    <text x="738" y="394" fill="#B8C7D7" font-family="Arial, sans-serif" font-size="18">Security posture</text>
+    <text x="738" y="468" fill="#F4F9DD" font-family="Georgia, serif" font-size="46" font-weight="700">6</text>
+    <text x="738" y="510" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="24" font-weight="700">Critical reviews</text>
+  </g>
+  <g>
+    <rect x="1016" y="352" width="280" height="176" rx="22" fill="#172328" stroke="#30444A"/>
+    <text x="1046" y="394" fill="#B8C7D7" font-family="Arial, sans-serif" font-size="18">AI operations</text>
+    <text x="1046" y="468" fill="#F4F9DD" font-family="Georgia, serif" font-size="46" font-weight="700">92%</text>
+    <text x="1046" y="510" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="24" font-weight="700">Workflow health</text>
+  </g>
+
+  <rect x="92" y="572" width="1204" height="208" rx="24" fill="#172328" stroke="#30444A"/>
+  <text x="122" y="620" fill="#8EF2C0" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">FLAGSHIP THESIS</text>
+  <text x="122" y="680" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="30" font-weight="700">A portfolio that behaves like one coordinated operating model:</text>
+  <text x="122" y="724" fill="#B8C7D7" font-family="Arial, sans-serif" font-size="24">Revenue, growth, governance, and AI are connected by execution layers, not parked in separate tools.</text>
+</svg>

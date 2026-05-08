@@ -1,0 +1,34 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" rx="32" fill="#091113"/>
+  <rect x="40" y="40" width="1320" height="820" rx="28" fill="#10191C" stroke="#24363B"/>
+  <text x="92" y="112" fill="#8EF2C0" font-family="Arial, sans-serif" font-size="20" letter-spacing="4">PORTFOLIO SYSTEM MAP</text>
+  <text x="92" y="176" fill="#F5F7FB" font-family="Georgia, serif" font-size="46" font-weight="700">The portfolio comes together as one coordinated growth model.</text>
+  <g>
+    <rect x="92" y="260" width="280" height="260" rx="24" fill="#172328" stroke="#30444A"/>
+    <text x="122" y="304" fill="#8FD6FF" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">FORECAST, CHURN, DEALS</text>
+    <text x="122" y="354" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="30" font-weight="700">Revenue Operations</text>
+    <text x="122" y="408" fill="#F4F9DD" font-family="Arial, sans-serif" font-size="24" font-weight="700">$2.4M at-risk pipeline</text>
+    <text x="122" y="458" fill="#B8C7D7" font-family="Arial, sans-serif" font-size="22">Forecast coverage is healthy, but upside concentration still needs attention.</text>
+  </g>
+  <g>
+    <rect x="400" y="260" width="280" height="260" rx="24" fill="#172328" stroke="#30444A"/>
+    <text x="430" y="304" fill="#8FD6FF" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">ATTRIBUTION, FUNNEL, TESTING</text>
+    <text x="430" y="354" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="30" font-weight="700">Growth and Experimentation</text>
+    <text x="430" y="408" fill="#F4F9DD" font-family="Arial, sans-serif" font-size="24" font-weight="700">+4.8% weighted lift</text>
+    <text x="430" y="458" fill="#B8C7D7" font-family="Arial, sans-serif" font-size="22">Experiments are improving conversion, but rollout discipline still matters.</text>
+  </g>
+  <g>
+    <rect x="708" y="260" width="280" height="260" rx="24" fill="#172328" stroke="#30444A"/>
+    <text x="738" y="304" fill="#8FD6FF" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">ACCESS, COMPLIANCE, RISK</text>
+    <text x="738" y="354" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="30" font-weight="700">Security and Governance</text>
+    <text x="738" y="408" fill="#F4F9DD" font-family="Arial, sans-serif" font-size="24" font-weight="700">3 critical approvals</text>
+    <text x="738" y="458" fill="#B8C7D7" font-family="Arial, sans-serif" font-size="22">Identity, vendor, and model-risk reviews stay coordinated instead of scattered.</text>
+  </g>
+  <g>
+    <rect x="1016" y="260" width="280" height="260" rx="24" fill="#172328" stroke="#30444A"/>
+    <text x="1046" y="304" fill="#8FD6FF" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">PROMPTS, GUARDRAILS, MODELS</text>
+    <text x="1046" y="354" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="30" font-weight="700">AI Operations</text>
+    <text x="1046" y="408" fill="#F4F9DD" font-family="Arial, sans-serif" font-size="24" font-weight="700">2 release holds</text>
+    <text x="1046" y="458" fill="#B8C7D7" font-family="Arial, sans-serif" font-size="22">Quality remains strong overall, but sensitive workflows stay behind governance gates.</text>
+  </g>
+</svg>
