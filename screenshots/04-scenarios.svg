@@ -1,0 +1,32 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" rx="32" fill="#091113"/>
+  <rect x="40" y="40" width="1320" height="820" rx="28" fill="#10191C" stroke="#24363B"/>
+  <text x="92" y="112" fill="#8EF2C0" font-family="Arial, sans-serif" font-size="20" letter-spacing="4">SCENARIO BOARD</text>
+  <text x="92" y="176" fill="#F5F7FB" font-family="Georgia, serif" font-size="46" font-weight="700">Different ways to steer the system depending on what matters most.</text>
+  <g>
+    <rect x="92" y="260" width="388" height="270" rx="24" fill="#172328" stroke="#30444A"/>
+    <text x="124" y="312" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="28" font-weight="700">Protect the quarter</text>
+    <text x="124" y="362" fill="#B8C7D7" font-family="Arial, sans-serif" font-size="22">Prioritize forecast confidence and suppress avoidable operating variance.</text>
+    <text x="124" y="438" fill="#EEF4FB" font-family="Arial, sans-serif" font-size="22">• Commit confidence +6 pts</text>
+    <text x="124" y="478" fill="#EEF4FB" font-family="Arial, sans-serif" font-size="22">• Promotion only on proven lanes</text>
+  </g>
+  <g>
+    <rect x="506" y="260" width="388" height="270" rx="24" fill="#172328" stroke="#30444A"/>
+    <text x="538" y="312" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="28" font-weight="700">Accelerate growth</text>
+    <text x="538" y="362" fill="#B8C7D7" font-family="Arial, sans-serif" font-size="22">Push validated pricing, experimentation, and attribution improvements harder.</text>
+    <text x="538" y="438" fill="#EEF4FB" font-family="Arial, sans-serif" font-size="22">• Qualified pipeline +11%</text>
+    <text x="538" y="478" fill="#EEF4FB" font-family="Arial, sans-serif" font-size="22">• Better partner and paid clarity</text>
+  </g>
+  <g>
+    <rect x="920" y="260" width="388" height="270" rx="24" fill="#172328" stroke="#30444A"/>
+    <text x="952" y="312" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="28" font-weight="700">Reduce governance drag</text>
+    <text x="952" y="362" fill="#B8C7D7" font-family="Arial, sans-serif" font-size="22">Close risk bottlenecks so teams move faster without opening new exposure.</text>
+    <text x="952" y="438" fill="#EEF4FB" font-family="Arial, sans-serif" font-size="22">• Approval cycle time -18%</text>
+    <text x="952" y="478" fill="#EEF4FB" font-family="Arial, sans-serif" font-size="22">• Exception aging under target</text>
+  </g>
+
+  <rect x="92" y="584" width="1216" height="180" rx="24" fill="#172328" stroke="#30444A"/>
+  <text x="124" y="628" fill="#8EF2C0" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">ACTION QUEUE</text>
+  <text x="124" y="682" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="28" font-weight="700">Pricing rollout decision · Vendor-risk renewal block · AI release approval · Funnel follow-up rebalance</text>
+  <text x="124" y="726" fill="#B8C7D7" font-family="Arial, sans-serif" font-size="22">Cross-domain work is visible in one queue so operators do not solve the right problems in the wrong order.</text>
+</svg>

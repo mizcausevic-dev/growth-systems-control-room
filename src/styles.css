@@ -1,0 +1,381 @@
+:root {
+  color-scheme: dark;
+  font-family: "Segoe UI", Inter, system-ui, sans-serif;
+  background:
+    radial-gradient(circle at 12% 0%, rgba(74, 222, 128, 0.16), transparent 22%),
+    radial-gradient(circle at 88% 6%, rgba(103, 232, 249, 0.14), transparent 18%),
+    linear-gradient(180deg, #091113 0%, #070d10 100%);
+  color: #f5f7fb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app-shell {
+  max-width: 1460px;
+  margin: 0 auto;
+  padding: 42px 24px 84px;
+  display: grid;
+  gap: 24px;
+}
+
+.panel {
+  border-radius: 30px;
+  border: 1px solid rgba(148, 163, 184, 0.14);
+  background: linear-gradient(180deg, rgba(15, 24, 27, 0.96), rgba(10, 16, 18, 0.94));
+  box-shadow: 0 28px 80px rgba(2, 6, 8, 0.34);
+  padding: 28px;
+}
+
+.hero-grid,
+.split-grid,
+.domain-grid,
+.summary-grid,
+.queue-grid,
+.scenario-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.hero-grid {
+  grid-template-columns: 1.1fr 0.9fr;
+}
+
+.split-grid {
+  grid-template-columns: 1fr 1fr;
+}
+
+.summary-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.domain-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.queue-grid,
+.scenario-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.hero-copy,
+.summary-tile,
+.domain-card,
+.signal-row,
+.queue-card,
+.scenario-card,
+.architecture-node {
+  min-width: 0;
+  overflow: hidden;
+  border-radius: 24px;
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.hero-copy {
+  padding: 10px 6px 10px 0;
+  border: 0;
+  background: transparent;
+}
+
+.eyebrow {
+  margin: 0 0 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.78rem;
+  color: #8ef2c0;
+}
+
+.eyebrow.small {
+  margin-bottom: 10px;
+  color: #8fd6ff;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+h1 {
+  max-width: 11ch;
+  font-size: clamp(3rem, 5vw, 5rem);
+  line-height: 0.95;
+}
+
+h2 {
+  max-width: 20ch;
+  font-size: 2rem;
+  line-height: 1.04;
+}
+
+h3 {
+  font-size: 1.45rem;
+  line-height: 1.1;
+}
+
+.lead {
+  max-width: 62ch;
+  margin: 20px 0 0;
+  color: #c3ceda;
+  font-size: 1.06rem;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+
+.primary-link,
+.secondary-link {
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.primary-link {
+  color: #071012;
+  background: linear-gradient(135deg, #4ade80, #67e8f9);
+}
+
+.secondary-link {
+  color: #edf2fb;
+  border: 1px solid rgba(148, 163, 184, 0.24);
+}
+
+.summary-tile,
+.domain-card,
+.queue-card,
+.scenario-card,
+.architecture-node {
+  padding: 22px;
+}
+
+.summary-tile {
+  min-height: 176px;
+  display: grid;
+  gap: 10px;
+}
+
+.summary-tile span,
+.signal-row p,
+.queue-card p,
+.scenario-card p,
+.architecture-node span,
+.annotation {
+  color: #a7b6c8;
+}
+
+.summary-tile strong {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.2rem, 3vw, 3rem);
+  line-height: 0.96;
+  color: #f4f9dd;
+}
+
+.summary-tile small {
+  color: #eef4fb;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.annotation {
+  text-align: right;
+  max-width: 18ch;
+  font-size: 0.9rem;
+}
+
+.domain-card {
+  min-height: 240px;
+  display: grid;
+  gap: 12px;
+  align-content: start;
+}
+
+.domain-card b {
+  color: #f4f9dd;
+  font-size: 1.08rem;
+}
+
+.signal-list {
+  display: grid;
+  gap: 14px;
+}
+
+.signal-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 18px;
+  align-items: center;
+  padding: 20px 22px;
+}
+
+.signal-left {
+  display: grid;
+  gap: 8px;
+}
+
+.signal-left strong {
+  font-size: 1.16rem;
+}
+
+.signal-right {
+  display: grid;
+  justify-items: end;
+  gap: 10px;
+}
+
+.signal-right b {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.6rem;
+  line-height: 1;
+  color: #f4f9dd;
+}
+
+.state-pill,
+.priority-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.state-healthy {
+  background: rgba(74, 222, 128, 0.16);
+  color: #97f6ba;
+}
+
+.state-stable {
+  background: rgba(103, 232, 249, 0.16);
+  color: #b7f3fb;
+}
+
+.state-watch {
+  background: rgba(245, 158, 11, 0.16);
+  color: #fde68a;
+}
+
+.queue-card,
+.scenario-card {
+  min-height: 220px;
+  display: grid;
+  gap: 12px;
+  align-content: start;
+}
+
+.queue-topline {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  color: #b8c7d7;
+  font-size: 0.9rem;
+}
+
+.priority-pill {
+  background: rgba(143, 214, 255, 0.14);
+  color: #bfe8ff;
+}
+
+.scenario-card ul {
+  margin: 0;
+  padding-left: 18px;
+  color: #eef4fb;
+}
+
+.scenario-card li + li {
+  margin-top: 8px;
+}
+
+.architecture-stack {
+  display: grid;
+  gap: 12px;
+}
+
+.architecture-node {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.architecture-node span {
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: rgba(74, 222, 128, 0.14);
+  color: #97f6ba;
+  font-weight: 700;
+}
+
+.architecture-node strong {
+  font-size: 1rem;
+}
+
+@media (max-width: 1240px) {
+  .hero-grid,
+  .split-grid,
+  .domain-grid,
+  .queue-grid,
+  .scenario-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .summary-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 820px) {
+  .app-shell {
+    padding: 24px 14px 56px;
+  }
+
+  .panel {
+    padding: 22px;
+    border-radius: 24px;
+  }
+
+  .summary-grid,
+  .queue-grid,
+  .scenario-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .signal-row {
+    grid-template-columns: 1fr;
+  }
+
+  .signal-right {
+    justify-items: start;
+  }
+
+  .section-heading {
+    flex-direction: column;
+  }
+
+  .annotation {
+    text-align: left;
+    max-width: none;
+  }
+}

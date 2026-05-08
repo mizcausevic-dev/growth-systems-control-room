@@ -1,0 +1,34 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" rx="32" fill="#091113"/>
+  <rect x="40" y="40" width="1320" height="820" rx="28" fill="#10191C" stroke="#24363B"/>
+  <text x="92" y="112" fill="#8EF2C0" font-family="Arial, sans-serif" font-size="20" letter-spacing="4">SIGNAL WALL</text>
+  <text x="92" y="176" fill="#F5F7FB" font-family="Georgia, serif" font-size="46" font-weight="700">What leadership should worry about first.</text>
+  <g>
+    <rect x="92" y="250" width="1204" height="124" rx="22" fill="#172328" stroke="#30444A"/>
+    <text x="124" y="298" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="28" font-weight="700">Revenue</text>
+    <text x="124" y="338" fill="#B8C7D7" font-family="Arial, sans-serif" font-size="22">Coverage is holding, but commit confidence still leans too heavily on enterprise concentration.</text>
+    <text x="1070" y="298" fill="#B7F3FB" font-family="Arial, sans-serif" font-size="22" font-weight="700">Stable</text>
+    <text x="1162" y="346" fill="#F4F9DD" font-family="Georgia, serif" font-size="42" font-weight="700">81</text>
+  </g>
+  <g>
+    <rect x="92" y="398" width="1204" height="124" rx="22" fill="#172328" stroke="#30444A"/>
+    <text x="124" y="446" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="28" font-weight="700">Growth</text>
+    <text x="124" y="486" fill="#B8C7D7" font-family="Arial, sans-serif" font-size="22">Funnel health is improving, but partner-led velocity is slowing enough to need operator attention.</text>
+    <text x="1070" y="446" fill="#FDE68A" font-family="Arial, sans-serif" font-size="22" font-weight="700">Watch</text>
+    <text x="1162" y="494" fill="#F4F9DD" font-family="Georgia, serif" font-size="42" font-weight="700">76</text>
+  </g>
+  <g>
+    <rect x="92" y="546" width="1204" height="124" rx="22" fill="#172328" stroke="#30444A"/>
+    <text x="124" y="594" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="28" font-weight="700">Security</text>
+    <text x="124" y="634" fill="#B8C7D7" font-family="Arial, sans-serif" font-size="22">Vendor renewal sequencing and privileged cleanup are under control, but not yet comfortably closed.</text>
+    <text x="1070" y="594" fill="#FDE68A" font-family="Arial, sans-serif" font-size="22" font-weight="700">Watch</text>
+    <text x="1162" y="642" fill="#F4F9DD" font-family="Georgia, serif" font-size="42" font-weight="700">69</text>
+  </g>
+  <g>
+    <rect x="92" y="694" width="1204" height="124" rx="22" fill="#172328" stroke="#30444A"/>
+    <text x="124" y="742" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="28" font-weight="700">AI</text>
+    <text x="124" y="782" fill="#B8C7D7" font-family="Arial, sans-serif" font-size="22">Evaluation quality is strong and incident volume is low, but release gating remains intentionally strict.</text>
+    <text x="1070" y="742" fill="#97F6BA" font-family="Arial, sans-serif" font-size="22" font-weight="700">Healthy</text>
+    <text x="1150" y="790" fill="#F4F9DD" font-family="Georgia, serif" font-size="42" font-weight="700">88</text>
+  </g>
+</svg>
