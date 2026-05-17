@@ -74,7 +74,7 @@ flowchart LR
 ## Local Run
 
 ```powershell
-Set-Location "C:\Users\chaus\dev\repos\growth-systems-control-room"
+cd growth-systems-control-room
 npm install
 npm test
 npm run build
