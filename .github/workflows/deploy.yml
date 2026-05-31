@@ -30,7 +30,7 @@ jobs:
       - name: Verify build output
         run: |
           test -f dist/index.html || (echo "FAIL: dist/index.html missing" && exit 1)
-          grep -q "Growth Systems Control Room" dist/index.html || \
+          grep -q "Growth Ops · Kinetic Gain" dist/index.html || \
             (echo "FAIL: dist/index.html missing brand string" && exit 1)
           echo "OK: build verified"
           ls -lah dist/
